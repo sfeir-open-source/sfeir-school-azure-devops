@@ -1,7 +1,7 @@
 {
   "name": "sfeirschoolxxx",
   "version": "1.0.0",
-  "description": "Sfeir School XXX with revealJS",
+  "description": "Sfeir School Azure DevOps for DEVs",
   "scripts": {
     "sass": "node-sass ./scss/slides.scss -o ./css/ --source-map=true --watch=\"scss\" --recursive=\"scss\"",
     "sass-once": "node-sass ./scss/slides.scss -o ./css/ --source-map=true ",
@@ -13,10 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sfeir-open-source/sfeir-school-template.git"
+    "url": "git+https://github.com/sfeir-open-source/sfeir-school-azure-devops.git"
   },
   "keywords": [
-    "xxx",
+    "azure",
+    "devops",
     "sfeir"
   ],
   "author": "jefbinomed",
