@@ -6,12 +6,10 @@
 ![badge](./assets/images/gde.png)
 ![company](./assets/images/logo_sfeir_bleu_orange.png)
 
-## Jean-François Garreau
+## Gregory Kieffer
 
-### CTO front
+### Head of Microsoft@SFEIR Luxembourg
 <!-- .element: class="icon-rule icon-first" -->
 
-### @jefbinomed
-<!-- .element: class="icon-twitter icon-second" -->
 
 

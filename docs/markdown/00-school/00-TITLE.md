@@ -1,8 +1,8 @@
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="xxx" -->
+<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="azure devops" -->
 
 # **Welcome to SFEIR School**
 
-## **XXX 200**
+## **Azure DevOps for DEVs**
 
 ##==##
 
