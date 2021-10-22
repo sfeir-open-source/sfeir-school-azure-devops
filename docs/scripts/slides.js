@@ -1,66 +1,60 @@
 // One method per module
-function schoolSlides() {
-  return [
-    '00-school/00-TITLE.md', 
-    '00-school/01-speaker.md'];
+function chapter(chapter, ...files) {
+  let out = [];
+  files.forEach(f => out.push({path: `${chapter}/${f}.md`}));
+  return out;
 }
 
-function introSlides() {
-  return ['intro/00-TITLE.md'];
-}
 
-function reposServiceSlides(){
-  return [
-    "services/repos/00-intro.md"
-  ];
-}
+const slides = {
+  school: chapter("school",
+    "00-TITLE",
+    "01-speaker"
+  ),
+  intro: chapter("intro",
+    "00-historique",
+    "01-devops",
+    "02-azure-devops"
+  ),
+  services: {
+    repos: chapter("services/repos",
+      "00-intro",
+      "01-git",
+      "02-review",
+      "03-forks",
 
-function boardServiceSlides(){
-  return [
-    "services/boards/00-intro.md"
-  ];
-}
 
-function pipelinesServiceSlides(){
-  return [
-    "services/pipelines/00-intro.md"
-  ];
-}
+    ),
+    boards: chapter("services/boards",
+      "00-intro"
+    ),
+    pipelines: chapter("services/pipelines",
+      "00-intro"
+    ),
+    test : chapter("services/test",
+      "00-intro"
+    ),
+    artifacts: chapter("services/artifacts",
+      "00-intro"
+    )
+  },
+  outro: chapter("outro",
+    "00-TITLE"
+  )
+};
 
-function testServiceSlides(){
-  return [
-    "services/test/00-intro.md"
-  ];
-}
-
-function artifactsSlides(){
-  return [
-    "services/artifacts/00-intro.md"
-  ];
-}
-
-function servicesSlides(){
-  return [
-    ...reposServiceSlides(),
-    ...boardServiceSlides(),
-    ...pipelinesServiceSlides(),
-    ...artifactsSlides(),
-    ...testServiceSlides(),
-
-  ]
-
-}
-function formation() {
-  return [
-    //
-    ...schoolSlides(), 
-    ...introSlides(),
-    ...servicesSlides()
-  ].map(slidePath => {
-    return { path: slidePath };
-  });
-}
 
 export function usedSlides() {
-  return formation();
+  return [
+    ...slides.school,
+    ...slides.intro,
+    ...slides.services.repos,
+    ...slides.services.boards,
+    ...slides.services.pipelines,
+    ...slides.services.artifacts,
+    ...slides.services.test,
+    ...slides.outro,
+  ]
+
+  
 }

@@ -1,19 +1,47 @@
 <!-- .slide: class="transition bg-pink" -->
-
-
 # Azure Repos
 ![logo](./assets/images/services/repos/logo.svg)
 
 ##--##
 
-## page 1
+## Source Control
 
-Notes:
-note 1
+Se doit d'etre centralise!
+
+Permet
+- collaboration
+- historique
+- resolution de conflits
+
 
 ##--##
 
-## page 2
+## Bonnes pratiques
+- commit often
+- pas de fichier personel, pas de secret
+- integrer master/main souvent
+- verifier les tests avant un push
+- commit message
+- associer les changements avec un workitem
+- suivre les conventions de l'equipe
 
-Notes:
-note 2
+##--##
+
+## TFVC, Git
+
+https://docs.microsoft.com/fr-fr/azure/devops/repos/tfvc/comparison-git-tfvc?view=azure-devops#which-version-control-system-should-i-use
+
+Principale difference: TFVC cree une copie lors de la creation de branches, Git ne stocke que les differences
+
+##--##
+
+## Git
+
+Pro
+- Branches legeres
+
+
+Cons
+- Courbe d'apprentissage 
+- Gros fichiers / binaires pas bienvenus
+- 
