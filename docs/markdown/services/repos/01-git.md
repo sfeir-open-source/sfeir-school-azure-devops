@@ -3,14 +3,14 @@
 
 ![logo](./assets/images/services/repos/logo.svg)
 
-GIT, TFVS, GitHub
+Git
 
 ##--##
 
 ## page 1
 
 Notes:
-...
+TODO Module 4
 
 ##--##
 

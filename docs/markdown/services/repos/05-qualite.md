@@ -1,14 +1,14 @@
 <!-- .slide: class="transition bg-pink" -->
 # Azure Repos
 ![logo](./assets/images/services/repos/logo.svg)
-Review Code
+Qualite
 
 ##--##
 
 ## page 1
 
 Notes:
-TODO Module 4
+TODO Module 3
 
 ##--##
 

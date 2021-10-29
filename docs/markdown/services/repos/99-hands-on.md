@@ -1,18 +1,28 @@
 <!-- .slide: class="transition bg-pink" -->
 # Azure Repos
 ![logo](./assets/images/services/repos/logo.svg)
-Review Code
+Hands On
+##--##
+
+
+## Lab - Clone, Branch, 
+
+
+Notes:
+TODO Lab02
 
 ##--##
 
-## page 1
+## Lab - PR
+
 
 Notes:
-TODO Module 4
+TODO Lab02
 
 ##--##
 
-## page 2
+## Demo - Branches. Repos
 
 Notes:
-note 2
+TODO Lab04
+

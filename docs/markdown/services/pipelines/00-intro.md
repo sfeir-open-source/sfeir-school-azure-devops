@@ -5,14 +5,42 @@
 
 ##--##
 
-## page 1
+## Concepts
+
+- Build automation
+- CI
+- Test automqtion
+- CD
 
 Notes:
-note 1
+TODO Module 5
 
 ##--##
 
-## page 2
+## Compatibilite
+- .net
+- java
+- js
+- python
+- xcode
+- ...
 
 Notes:
 note 2
+
+
+##--##
+
+## Vocabulaire
+- Agent
+- Artifact
+- Build
+- Job
+- Pipeline
+- Release
+- Stage
+- Task
+- Trigger
+
+
+
