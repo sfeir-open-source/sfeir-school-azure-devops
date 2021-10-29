@@ -22,20 +22,27 @@ const slides = {
       "01-git",
       "02-review",
       "03-forks",
-
-
+      "04-wikis",
+      "05-qualite",
+      "99-hands-on"
     ),
     boards: chapter("services/boards",
-      "00-intro"
+      "00-intro",
+      "99-hands-on"
     ),
     pipelines: chapter("services/pipelines",
-      "00-intro"
+      "00-intro",
+      "01-agents-jobs",
+      "02-pipelines",
+      "99-hands-on"
     ),
     test : chapter("services/test",
-      "00-intro"
+      "00-intro",
+      "99-hands-on"
     ),
     artifacts: chapter("services/artifacts",
-      "00-intro"
+      "00-intro",
+      "99-hands-on"
     )
   },
   outro: chapter("outro",
