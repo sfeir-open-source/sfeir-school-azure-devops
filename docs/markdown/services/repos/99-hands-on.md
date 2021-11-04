@@ -5,24 +5,24 @@ Hands On
 ##--##
 
 
-## Lab - Clone, Branch, 
+## Lab - Clone, Branch
 
 
 Notes:
 TODO Lab02
+- git clone
+- git checkout -b // creer branche
+- git branch // lister branches
+- git status
+- modifier un fichier
+- git add
+- git commit 
+- git push
 
 ##--##
 
 ## Lab - PR
-
-
 Notes:
 TODO Lab02
 
-##--##
-
-## Demo - Branches. Repos
-
-Notes:
-TODO Lab04
 

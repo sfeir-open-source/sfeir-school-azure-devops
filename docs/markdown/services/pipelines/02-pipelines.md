@@ -24,6 +24,8 @@ Pipelines
 - pool
 - checkout
 
+Notes:
+Montrer hierarchie dans la structure yaml
 
 ##--##
 
@@ -43,5 +45,4 @@ Pipelines
 - Job template
 - Step template
 - Variable template
-
 - Parameter template

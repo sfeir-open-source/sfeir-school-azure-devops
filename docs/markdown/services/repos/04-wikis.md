@@ -4,15 +4,21 @@
 Wikis
 
 ##--##
+## Documentation
+Azure DevOps Wikis
 
-## page 1
+- intégré dans le projet
+- markdown
+- basé sur git
+
 
 Notes:
-TODO Module 3
 
 ##--##
+## Demo
 
-## page 2
+- Wiki
+- GFM
+- Mermaid
 
 Notes:
-note 2

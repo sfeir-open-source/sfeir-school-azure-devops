@@ -37,11 +37,7 @@ Principale difference: TFVC cree une copie lors de la creation de branches, Git 
 
 ## Git
 
-Pro
-- Branches legeres
-
-
-Cons
-- Courbe d'apprentissage 
-- Gros fichiers / binaires pas bienvenus
-- 
+| Avantages        |                          Inconvénients |
+|------------------|---------------------------------------:|
+| Branches légères |                 Courbe d'apprentissage |
+| Distribué        | Gros fichiers / binaires pas bienvenus |

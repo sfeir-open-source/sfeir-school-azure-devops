@@ -4,15 +4,42 @@
 Review Code
 
 ##--##
+## Objectif: Collaboration
 
-## page 1
+**Fondement de l'open source**
+
+Pull request
+- Partager à l'équipe les changements
+- Demander l'avis des autres
+- Discutter des modifications éventuelles
+- Détecter les bugs (un peu)
+- Detecter les problèmes
+
+
+<div class="tip">
+Un PR n'est pas une obligation de merger !
+</div>
+
 
 Notes:
-TODO Module 4
+Demo dans Hands-on
 
 ##--##
+## It's all about feedback
 
-## page 2
+- Assigner au bonnes personnes
+- Description claire
+- Feedback constructif, rapide
+
+<div class="tip">Feeback POSITIF 💝</div>
+
 
 Notes:
-note 2
+- Bonnes personnes => policy + manuel
+- Changements out of scope => new work item
+
+
+##--##
+## Demo
+
+- Pull request

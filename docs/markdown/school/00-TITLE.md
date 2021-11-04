@@ -4,7 +4,7 @@
 
 ## **Azure DevOps for DEVs**
 
-##==##
+##--##
 
 <!-- .slide: class="school-presentation" -->
 
@@ -13,7 +13,7 @@
     <span class="key">mdp:</span><span>PWD_WIFI</span>
 </div>
 
-##==##
+##--##
 
 # Déroulement de la formation
 

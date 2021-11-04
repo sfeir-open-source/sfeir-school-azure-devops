@@ -34,12 +34,10 @@ const slides = {
       "00-intro",
       "01-agents-jobs",
       "02-pipelines",
+      "03-tasks",
       "99-hands-on"
     ),
-    test : chapter("services/test",
-      "00-intro",
-      "99-hands-on"
-    ),
+ 
     artifacts: chapter("services/artifacts",
       "00-intro",
       "99-hands-on"
@@ -59,7 +57,6 @@ export function usedSlides() {
     ...slides.services.boards,
     ...slides.services.pipelines,
     ...slides.services.artifacts,
-    ...slides.services.test,
     ...slides.outro,
   ]
 
