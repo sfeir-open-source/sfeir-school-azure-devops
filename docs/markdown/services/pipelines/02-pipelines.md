@@ -2,12 +2,14 @@
 
 # Azure Pipelines
 ![logo](./assets/images/services/pipelines/logo.svg)
+
 Pipelines
 
 ##--##
 ## Designer
 - debutant
 
+##--##
 ## YAML
 - infrastructure as code
 - avec le reste du code
@@ -15,7 +17,6 @@ Pipelines
 - templates
 
 ##--##
-
 ## YAML Exemple
 - name
 - trigger
@@ -28,11 +29,9 @@ Notes:
 Montrer hierarchie dans la structure yaml
 
 ##--##
-
 ## triggers / resources / checkout / download
 
 ##--##
-
 ## jobs / dependencies  / stages
 
 ##--##

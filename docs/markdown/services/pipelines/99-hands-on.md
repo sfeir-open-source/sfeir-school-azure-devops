@@ -2,7 +2,8 @@
 
 # Azure Pipelines
 ![logo](./assets/images/services/pipelines/logo.svg)
-Hands On
+
+Hands-On
 
 ##--##
 

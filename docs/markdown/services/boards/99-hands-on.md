@@ -3,6 +3,8 @@
 # Azure Boards
 ![logo](./assets/images/services/boards/logo.svg)
 
+Hands-on
+
 ##--##
 
 ## Demo - Teams, Areas, Iterations

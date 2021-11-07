@@ -2,8 +2,8 @@
 
 # Azure Pipelines
 ![logo](./assets/images/services/pipelines/logo.svg)
-Pipelines: Tasks
 
+Pipelines: Tasks
 
 ##--##
 ## Shell: Powershell
