@@ -7,26 +7,26 @@ function chapter(chapter, ...files) {
 
 
 const slides = {
-  school: chapter("school",
+  school: chapter("00-school",
     "00-TITLE",
     "01-speaker"
   ),
-  intro: chapter("intro",
+  intro: chapter("01-intro",
     "00-historique",
     "01-devops",
     "02-azure-devops",
 
   ),
   project: {
-    intro: chapter("project/00-intro",
+    intro: chapter("02-project/00-intro",
       "00-main"
     ),
-    plan: chapter("project/01-plan",
+    plan: chapter("02-project/01-plan",
       "00-intro",
       "99-hands-on"
     ),
     
-    code: chapter("project/02-code",
+    code: chapter("02-project/02-code",
       "00-intro",
       "01-git",
       "02-review",
@@ -35,23 +35,23 @@ const slides = {
       "05-qualite",
       "99-hands-on"
     ),
-    build: chapter("project/03-build",
+    build: chapter("02-project/03-build",
       "00-intro",
       "01-agents-jobs",
       "02-pipelines",
       "03-tasks",
       "99-hands-on"
     ),
-    test: chapter("project/04-build",
+    test: chapter("02-project/04-test",
     ),
-    deploy: chapter("project/05-deploy",
+    deploy: chapter("02-project/05-deploy",
     ),
     reuse: chapter("project/06-reuse",
       "00-intro",
       "99-hands-on"
     )
   },
-  outro: chapter("project/99-outro",
+  outro: chapter("03-outro/00-TITLE",
   ),
 
 };
@@ -68,7 +68,6 @@ export function usedSlides() {
     ...slides.project.test,
     ...slides.project.deploy,
     ...slides.project.reuse,
-    ...slides.project.outro,
     ...slides.outro,
   ]
 
