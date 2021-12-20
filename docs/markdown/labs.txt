@@ -1,9 +1,0 @@
-02-project
-    - Demo - Teams, Areas, Iterations
-    - Lab - Work Items
-    - Demo - Sprint
-    
-03-code
-    - Lab - Clone, Branch
-    - Lab - PR
-

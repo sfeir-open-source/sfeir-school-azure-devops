@@ -36,6 +36,8 @@ Notes:
 
 ##--##
 
-## GitHub
+## Azure DevOps & GitHub
 
-TODO
+- 2018: Microsoft rachete GitHub
+- Feature overlap
+- Futur de Azure DevOps: Intégré dans GitHub
