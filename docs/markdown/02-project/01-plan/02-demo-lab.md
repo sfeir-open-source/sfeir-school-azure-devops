@@ -1,9 +1,8 @@
 <!-- .slide: class="transition bg-green" -->
 
-# Azure Boards
-![logo](./assets/images/services/boards/logo.svg)
-
-Hands-on
+# Plannification
+## ![logo](./assets/images/services/boards/logo.svg)
+**Demo & Hands-on**
 
 ##--##
 
@@ -11,7 +10,7 @@ Hands-on
 
 
 Notes:
-TODO Lab01
+TODO
 
 ##--##
 
@@ -19,7 +18,7 @@ TODO Lab01
 
 
 Notes:
-TODO Lab01
+TODO
 
 ##--##
 
@@ -27,4 +26,4 @@ TODO Lab01
 
 
 Notes:
-TODO Lab01
+TODO 

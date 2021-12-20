@@ -1,9 +1,10 @@
 <!-- .slide: class="transition bg-blue" -->
-
-# Azure Pipelines
+# Build & Deploy
 ![logo](./assets/images/services/pipelines/logo.svg)
 
-Hands-On
+**Azure Pipelines**
+
+**Demo**
 
 ##--##
 
@@ -16,25 +17,3 @@ TODO
 
 
 ##--##
-
-## Lab - YAML
-
-
-Notes:
-TODO Lab05
-
-##--##
-
-## Lab - Work Items
-
-
-Notes:
-TODO Lab01
-
-##--##
-
-## Demo - Sprint
-
-
-Notes:
-TODO Lab01

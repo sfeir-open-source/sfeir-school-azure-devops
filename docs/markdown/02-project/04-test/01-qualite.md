@@ -1,8 +1,9 @@
-<!-- .slide: class="transition bg-pink" -->
-# Azure Repos
-![logo](./assets/images/services/repos/logo.svg)
+<!-- .slide: class="transition bg-green" -->
 
-Qualite
+# Tests
+![logo](./assets/images/services/test/logo.svg)
+
+**Qualité**
 
 ##--##
 ## Mesure de la qualité

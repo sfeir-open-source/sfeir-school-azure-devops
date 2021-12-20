@@ -1,8 +1,8 @@
 <!-- .slide: class="transition bg-pink" -->
-# Azure Repos
+# Code
 ![logo](./assets/images/services/repos/logo.svg)
 
-Review Code
+**Review Code**
 
 ##--##
 ## Objectif: Collaboration
@@ -12,7 +12,7 @@ Review Code
 Pull request
 - Partager à l'équipe les changements
 - Demander l'avis des autres
-- Discutter des modifications éventuelles
+- Discuter des modifications éventuelles
 - Détecter les bugs (un peu)
 - Detecter les problèmes
 
@@ -40,7 +40,3 @@ Notes:
 - Changements out of scope => new work item
 
 
-##--##
-## Demo
-
-- Pull request

@@ -1,7 +1,9 @@
 <!-- .slide: class="transition bg-pink" -->
 
-# Azure Artifacts
+# Reuse
 ![logo](./assets/images/services/artifacts/logo.svg)
+
+**Azure Artifacts**
 
 ##--##
 

@@ -1,8 +1,8 @@
-<!-- .slide: class="transition bg-pink" -->
-# Azure Repos
+<!-- .slide: class="transition bg-white" -->
+# Document
 ![logo](./assets/images/services/repos/logo.svg)
 
-Wikis
+**Wikis**
 
 ##--##
 ## Documentation

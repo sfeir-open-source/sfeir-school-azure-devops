@@ -1,8 +1,7 @@
-<!-- .slide: class="transition bg-pink" -->
+<!-- .slide: class="transition" -->
 
-# Introduction
-
-
+# Introduction 
+**Historique**
 
 ##--##
 
@@ -33,3 +32,10 @@ Notes:
 - Navigation: Microsoft Fluent design language: consistance
 - Artifacts meme en version Baic
 - Release: YAML pipelines
+
+
+##--##
+
+## GitHub
+
+TODO

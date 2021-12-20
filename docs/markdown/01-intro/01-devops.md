@@ -1,6 +1,7 @@
-<!-- .slide: class="transition bg-pink" -->
+<!-- .slide: class="transition" -->
 
-# DevOps ?
+# Introduction 
+**DevOps ?**
 
 ##--##
 

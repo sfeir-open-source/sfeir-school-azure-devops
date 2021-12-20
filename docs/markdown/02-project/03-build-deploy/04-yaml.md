@@ -1,9 +1,30 @@
 <!-- .slide: class="transition bg-blue" -->
-
-# Azure Pipelines
+# Build & Deploy
 ![logo](./assets/images/services/pipelines/logo.svg)
 
-Pipelines: Tasks
+**Azure Pipelines**
+
+**Pipelines, Tasks**
+
+##--##
+## YAML
+- infrastructure as code
+- avec le reste du code
+    => modif dans une branche
+- templates
+
+##--##
+## YAML Exemple
+- name
+- trigger
+- variables
+- jobs
+- pool
+- checkout
+
+Notes:
+Montrer hierarchie dans la structure yaml
+
 
 ##--##
 ## Shell: Powershell

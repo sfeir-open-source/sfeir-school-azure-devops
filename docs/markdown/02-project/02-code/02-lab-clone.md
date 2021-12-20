@@ -1,12 +1,14 @@
 <!-- .slide: class="transition bg-pink" -->
-# Azure Repos
+# Code
 ![logo](./assets/images/services/repos/logo.svg)
 
-Hands-On
+**Demo & Hands-on**
 
 ##--##
+## Demo - Pull request
 
 
+##--##
 ## Lab - Clone, Branch
 
 

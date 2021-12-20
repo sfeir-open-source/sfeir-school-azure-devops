@@ -1,7 +1,10 @@
 <!-- .slide: class="transition bg-blue" -->
-
-# Azure Pipelines
+# Build & Deploy
 ![logo](./assets/images/services/pipelines/logo.svg)
+
+**Azure Pipelines**
+
+**GitHub Actions**
 
 ##--##
 
@@ -9,7 +12,7 @@
 
 - Build automation
 - CI
-- Test automqtion
+- Test automation
 - CD
 
 Notes:
@@ -17,7 +20,7 @@ TODO Module 5
 
 ##--##
 
-## Compatibilite
+## Compatibilité
 - .net
 - java
 - js

@@ -1,6 +1,8 @@
-<!-- .slide: class="transition bg-pink" -->
+<!-- .slide: class="transition" -->
 
-# Azure DevOps
+# Introduction 
+**Azure DevOps**
+
 ##--##
 
 ## Azure DevOps

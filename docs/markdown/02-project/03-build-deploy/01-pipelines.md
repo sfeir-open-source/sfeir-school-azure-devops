@@ -1,9 +1,33 @@
 <!-- .slide: class="transition bg-blue" -->
-
-# Azure Pipelines
+# Build & Deploy
 ![logo](./assets/images/services/pipelines/logo.svg)
 
-Agents, Pools, Jobs
+**Azure Pipelines**
+
+**Pipelines**
+
+##--##
+## Pipelines
+
+
+
+##--##
+## triggers / resources / checkout / download
+
+##--##
+## jobs / dependencies  / stages
+
+##--##
+## steps = tasks
+
+##--##
+## templates
+
+- Stage template
+- Job template
+- Step template
+- Variable template
+- Parameter template
 
 ##--##
 ## Agents

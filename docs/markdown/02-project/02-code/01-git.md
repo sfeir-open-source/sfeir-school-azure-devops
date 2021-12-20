@@ -1,9 +1,8 @@
 <!-- .slide: class="transition bg-pink" -->
-# Azure Repos
-
+# Code
 ![logo](./assets/images/services/repos/logo.svg)
 
-Git
+**Git**
 
 ##--##
 ## Structure

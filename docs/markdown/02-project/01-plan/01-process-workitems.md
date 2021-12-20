@@ -1,9 +1,19 @@
 <!-- .slide: class="transition bg-green" -->
+# Plannification
+## ![logo](./assets/images/services/boards/logo.svg)
+**Azure Boards: Dans les chaussettes d'un PO**
 
-# Azure Boards
-![logo](./assets/images/services/boards/logo.svg)
+##--##
+## ![logo](./assets/images/services/boards/logo.svg) Azure Boards
 
-L'antre du PO
+- Gestion du backlog
+- Gestion du sprint
+- Gestion des ressources
+- Planification
+- Rapports
+- Dashboard
+- Queries
+- ...
 
 ##--##
 ## Process
@@ -11,6 +21,7 @@ L'antre du PO
 - Agile                 
 - Scrum
 - CMMI
+- Process personalisé
 
 ##--##
 ## Work Items
@@ -22,7 +33,7 @@ L'antre du PO
         "Purchase"
         "Price Catalog"
         "Product Catalog"
-- User Story / Baccklog Item
+- User Story / Backlog Item
     "As a User, I want to add items to my shopping cart
 - Task
     "As a User I want to see a list of recommended product categories in the landing page"
