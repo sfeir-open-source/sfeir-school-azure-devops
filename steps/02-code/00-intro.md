@@ -29,15 +29,11 @@ Permet
 
 ##--##
 
-## TFVC vs Git
+## TFVC, Git
+
+TODO https://docs.microsoft.com/fr-fr/azure/devops/repos/tfvc/comparison-git-tfvc?view=azure-devops#which-version-control-system-should-i-use
 
 Principale difference: TFVC cree une copie lors de la creation de branches, Git ne stocke que les differences
-
-Choix:
-- Ne plus utiliser TFVC
-- Utiliser Git
-- Evaluer l'utilisation de Github
-
 
 ##--##
 

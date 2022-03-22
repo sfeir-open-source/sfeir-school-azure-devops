@@ -10,20 +10,13 @@
 
 
 Notes:
-TODO
+
 
 ##--##
 
-## Lab - Work Items
+## Lab - Work Items, sprints, queries
 
 
 Notes:
-TODO
+02-lab-workitems
 
-##--##
-
-## Demo - Sprint
-
-
-Notes:
-TODO 
