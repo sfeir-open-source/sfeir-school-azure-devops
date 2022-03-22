@@ -1,5 +1,5 @@
 <!-- .slide: class="transition bg-green" -->
-# Plannification
+# Planification
 ## ![logo](./assets/images/services/boards/logo.svg)
 **Azure Boards: Dans les chaussettes d'un PO**
 
@@ -21,7 +21,7 @@
 - Agile                 
 - Scrum
 - CMMI
-- Process personalisé
+- Process personnalisé
 
 ##--##
 ## Work Items

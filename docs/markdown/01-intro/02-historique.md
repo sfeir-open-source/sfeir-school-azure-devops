@@ -11,7 +11,7 @@
 - Azure DevOps (+ server)
 
 Notes:
-VSS: Pas de serveur. Problemes de stabilite du a l'acces direct au fichiers par les "clients". Gros risque de corruption de fichier
+VSS: Pas de serveur. Problèmes de stabilité dû à l'accès direct au fichiers par les "clients". Gros risque de corruption de fichier
 
 ##--##
 
@@ -30,7 +30,7 @@ Azure DevOps est une **evolution** de TFS
 
 Notes:
 - Navigation: Microsoft Fluent design language: consistance
-- Artifacts meme en version Baic
+- Artifacts meme en version Basic
 - Release: YAML pipelines
 
 
@@ -38,6 +38,6 @@ Notes:
 
 ## Azure DevOps & GitHub
 
-- 2018: Microsoft rachete GitHub
+- 2018: Microsoft rachète GitHub
 - Feature overlap
 - Futur de Azure DevOps: Intégré dans GitHub

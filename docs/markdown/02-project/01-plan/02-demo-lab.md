@@ -1,6 +1,6 @@
 <!-- .slide: class="transition bg-green" -->
 
-# Plannification
+# Planification
 ## ![logo](./assets/images/services/boards/logo.svg)
 **Demo & Hands-on**
 

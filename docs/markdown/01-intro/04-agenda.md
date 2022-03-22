@@ -7,16 +7,17 @@
 
 # Un projet end-to-end
 
-Plannification, implémentation (avec des raccourcis😅), build & test, déployement.
+Planification, implémentation (avec des raccourcis😅), build & test, déployement.
 
 ##--##
 
 # Starter kits
 
 - .net core
-- Java
+- Java Spring
+- Kotlin
+- Node
 - Python
-- Go
 - BYOD (Bring your own ~~device~~ development)
 
 ##--##

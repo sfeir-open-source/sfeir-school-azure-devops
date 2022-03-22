@@ -19,8 +19,8 @@
 ##--##
 ## Intervenants
 
-- Developpeurs
-- Operateurs
+- Développeurs
+- Opérateurs
 - Testeurs
 - Analystes
 - Chefs de projet

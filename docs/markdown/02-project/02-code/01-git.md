@@ -18,7 +18,7 @@ Dans Azure DevOps:
 - Forking
 
 Notes:
-Decrire chaque workflow rapidement
+Décrire chaque workflow rapidement
 
 ##--##
 ## CI-CD
