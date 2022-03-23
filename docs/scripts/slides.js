@@ -39,10 +39,10 @@ const slides = {
       "00-intro",      
       "01-pipelines",
       "02-demo-pipeline-designer",      
-      "03-demo-agents",      
+      "03-yaml",
       "04-yaml",
       "05-lab-build-project",
-      "06-github-actions",
+      "06-github",
       "07-deploy",
       "08-demo-deploy-project"
     ),

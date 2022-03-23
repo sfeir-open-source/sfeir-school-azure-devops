@@ -2,8 +2,14 @@
 # Build & Deploy
 ![logo](./assets/images/services/pipelines/logo.svg)
 
-**GitHub Actions**
+**CI/CD dans GitHub**
 
 ##--##
+## Sources
 
+##--##
+## PR
+
+##--##
 ## GitHub Actions
+

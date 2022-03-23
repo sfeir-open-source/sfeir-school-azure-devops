@@ -11,9 +11,10 @@
 ## Demo - Visual Designer
 
 Notes:
-TODO
 - Build number
 - Badges
 
 
 ##--##
+## Demo = Agents, Pools, Jobs
+
