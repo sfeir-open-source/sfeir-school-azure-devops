@@ -21,10 +21,6 @@ Pull request
 Un PR n'est pas une obligation de merger !
 </div>
 
-
-Notes:
-Demo dans Hands-on
-
 ##--##
 ## It's all about feedback
 
@@ -32,7 +28,7 @@ Demo dans Hands-on
 - Description claire
 - Feedback constructif, rapide
 
-<div class="tip">Feeback POSITIF 💝</div>
+<div class="tip">Feedback POSITIF 💝</div>
 
 
 Notes:
