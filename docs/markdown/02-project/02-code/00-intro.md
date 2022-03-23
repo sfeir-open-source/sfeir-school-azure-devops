@@ -8,9 +8,8 @@
 
 ## Source Control
 
-Se doit d'être centralisé!
+Quel que soit le système utilisé, un source control permet:
 
-Permet
 - collaboration
 - historique
 - resolution de conflits
@@ -26,6 +25,13 @@ Permet
 - commit message
 - associer les changements avec un workitem
 - suivre les conventions de l'équipe
+
+##--##
+
+## Azure Repos
+
+- Possibilité d'utiliser TFVC, Git interne, GitHub, Bitbucket, etc.
+-  TFVC, Git les alternatives hostées dans Azure DevOps
 
 ##--##
 

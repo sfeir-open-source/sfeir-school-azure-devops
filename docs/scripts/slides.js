@@ -24,7 +24,7 @@ const slides = {
   project: {
     plan: chapter("02-project/01-plan",
       "01-process-workitems",
-      "02-demo-lab"
+      "02-labs"
     ),
     
     code: chapter("02-project/02-code",

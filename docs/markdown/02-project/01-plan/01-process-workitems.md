@@ -59,6 +59,37 @@
 
 ##--##
 ## Différentes vues
-- Board
-- Backlog
-- Excel
+- **Work Items:** 
+- **Boards:**
+- **Backlog:**
+- **Sprints**
+- **Queries**
+
+*Additionnellement: Excel*
+
+Notes:
+- **Work Items:** 
+    vues rapides, recherche rapide
+- **Boards:**
+    Scrum board, Kanban board, chaque équipe définit ce qui lui est important
+- **Backlog:**
+    Vue complète sur le backlog
+- **Sprints**
+    Vue sur un sprint   
+- **Queries**
+    "The sky is the limit"
+
+Excel: nécessite l'installation d'un bridge
+
+##--##
+
+## Demo - Vues
+
+
+##--##
+
+## Demo - Teams, Areas, Iterations
+
+
+Notes:
+

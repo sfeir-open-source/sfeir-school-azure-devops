@@ -27,19 +27,28 @@ Décrire chaque workflow rapidement
 - Forking: Pour des équipes distribuées, permet à chaqun de faire un fork du projet et de gerer sa stratégie de développement
 
 ##--##
-## CI-CD
+## Stratégies
 
 `master` ou `main`:
-- La seule origine pour release en prod
-- Toujours prête !
-- Protégée par branch policies
-- Tous les changements arrivent par PR
-- Release = Tag
+- Soit 
+    - La dernière version du code. Pas forcément stable
+    - Branches releases ponctuelles
+- Ou
+    - Version stable du code
+    - Toujours prête !
+    - Source des releases
+    - Release = Tag
 
-branche feature:
+- Toujours:
+    - Protégée par branch policies
+    - Tous les changements arrivent par PR
+
+##--##
+## Feature branch
+
 - Nouvelles fonctionnalités, bug fixes
 - Bien surveiller la convention de nommage
-    ```
+    ```text
     features/feature-name
     features/feature-area/feature-name
     
