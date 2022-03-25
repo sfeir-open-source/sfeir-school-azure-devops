@@ -59,9 +59,9 @@
 
 ##--##
 ## Différentes vues
-- **Work Items:** 
-- **Boards:**
-- **Backlog:**
+- **Work Items** 
+- **Boards**
+- **Backlog**
 - **Sprints**
 - **Queries**
 

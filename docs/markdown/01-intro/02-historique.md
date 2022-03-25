@@ -1,7 +1,7 @@
 <!-- .slide: class="transition" -->
 
 # Introduction 
-**Historique**
+**Historique de l'outillage DevOps Microsoft**
 
 ##--##
 

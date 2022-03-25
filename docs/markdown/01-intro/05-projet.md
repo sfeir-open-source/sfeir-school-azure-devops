@@ -29,9 +29,10 @@ Présentation des films Star Wars avec intro "crawl"
 # Starter kits pour API d'épisodes
 
 - .net core
-- Java
+- Java Spring
+- Kotlin
 - Python
-- Go
+- Node
 - BYOD (Bring your own ~~device~~ development)
 
 ##--##
