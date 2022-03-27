@@ -9,7 +9,7 @@
 ## Avant de tester savoir quoi tester
 
 
-<div class="tip">
+Notes:
 	Faire un tour de table rapide pour voir les différentes manières de gérer les tests fonctionnels.
 
 	On sort un peu du contexte purement orienté dev et on parle plus de l'après déploiement.
@@ -20,7 +20,7 @@
 		Les tests sont associés a des User stories et liée plutot liée a un sprint
 		Test lié aux features et persistant dans la durée (plutôt pour le smoke testing)
 	Souvent un mix 
-</div>
+
 
 ##--##
 ## Demo Test plan
@@ -30,14 +30,14 @@
 - Test Case => Ensemble de steps qui constinuent un test
 - Step => description de l action a réalisé et le resultat attendu
 
-<div class="tip">
-Derouler demo
+Notes:
+	Derouler demo
 
-faire tourner 2 tests manuels 
-	=> 1 success
-	=> 1 failed qui créer un bug
-	=> Montrer le bug
-</div>
+	faire tourner 2 tests manuels 
+		=> 1 success
+		=> 1 failed qui créer un bug
+		=> Montrer le bug
+
 
 ##--##
 ## Demo Parameters et Configuration  
@@ -53,7 +53,7 @@ faire tourner 2 tests manuels
 
 
 
-<div class="tip">
+Notes:
    Sub cloud => https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/
    Sub MSDN  => https://visualstudio.microsoft.com/fr/vs/pricing-details/
-</div>
+
