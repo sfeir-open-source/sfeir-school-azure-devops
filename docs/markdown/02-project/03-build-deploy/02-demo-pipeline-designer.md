@@ -10,11 +10,8 @@
 
 ## Demo - Visual Designer
 
+Agents, Pools, Jobs
+
 Notes:
 - Build number
 - Badges
-
-
-##--##
-## Demo = Agents, Pools, Jobs
-

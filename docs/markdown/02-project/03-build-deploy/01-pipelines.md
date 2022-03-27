@@ -11,6 +11,7 @@
 - Agent
 - Artifact
 - Build
+- Environnement
 - Job
 - Pipeline
 - Release
@@ -39,14 +40,41 @@
 
 ##--##
 ## Agents
+Le service qui va executer une pipeline de build ou de release
 
-TODO: https://docs.microsoft.com/fr-fr/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser
-- MS
-- Self
-- Capabilities / Demands
+Hosting:
 
+| Microsoft                                              | Self-hosted                           |
+|--------------------------------------------------------|---------------------------------------|
+| - Environnement "clean" à chaque execution (plus lent) | - Build incrémentielles (plus rapide) |
+| - 0 maintenance                                        | - Illimité                            |
+| - Minutes gratuites                                    | - Maintenance                         |
+
+
+Compatibilité
+- macOS
+- Linux (x64, ARM, ARM64, RHEL6)
+- Windows (x64, x86)
+- Docker
+
+Groupé dans des pool
+
+Sélectionné par Capabilities / Demands
 
 ##--##
 
-## Environements
-TODO: https://docs.microsoft.com/fr-fr/azure/devops/pipelines/process/environments?view=azure-devops
+## Environnements
+
+Un environnement est une collection de ressources que vous pouvez cibler avec des déploiements à partir d’un pipeline. 
+Dev, test, QA, Staging et production sont des exemples typiques de noms d’environnement.
+
+Avantages
+- Historique de déploiement
+- Traçabilité des validations et des éléments de travail	
+- Sécurité: Validations par 
+    - approval 
+    - whitelist de branches 
+    - restrictions (par ex policy sur images docker) 
+    - heure
+    - lock exclusif
+    - autres: azure function; api REST, ...
