@@ -7,13 +7,16 @@
 
 ##--##
 
-## Lab - ?
+## Lab - Utiliser Wiki dans DevOps
+
+- Créer une page à son nom
+- Ajouter des éléments en utilisant du markdown
 
 Notes:
 
 ##--##
 
-## Demo - Précisions
+## Précisions
 
 - Multiples wikis
 - Branches

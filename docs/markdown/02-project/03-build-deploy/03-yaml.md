@@ -4,7 +4,6 @@
 
 **Azure Pipelines**
 
-**Pipelines, Tasks**
 
 ##--##
 ## YAML
@@ -15,34 +14,45 @@
 
 ##--##
 ## YAML Exemple
-- name
-- trigger
-- variables
-- jobs
-- pool
-- checkout
+
 
 Notes:
-Montrer hiérarchie dans la structure yaml
-
+Utiliser /steps/03-build-deploy/sample.yaml
 
 ##--##
 ## triggers 
-https://docs.microsoft.com/fr-fr/azure/devops/pipelines/build/triggers?view=azure-devops
-
 ```yaml
 # A pipeline with no CI trigger
 trigger: none
+___________________________________________________________________________________________________
+
+trigger:
+- master
+- releases/*
+___________________________________________________________________________________________________
+
+# specific branch build
+trigger:
+  branches:
+    include:
+    - master
+    - releases/*
+    exclude:
+    - releases/old*
+___________________________________________________________________________________________________
+
+trigger:
+  branches:
+    include:
+    - master
+    - releases/*
+  paths:
+    include:
+    - docs
+    exclude:
+    - docs/README.md
 ```
 
-##--##
-## templates
-
-- Stage template
-- Job template
-- Step template
-- Variable template
-- Parameter template
 
 ##--##
 ## Shell: Powershell
@@ -95,7 +105,7 @@ Options
 
 
 ##--##
-## .net core: Default shell
+## Default shell
 ```yaml
 - script: |
     npm install
@@ -103,7 +113,7 @@ Options
 ```
 
 ##--##
-## .net core: Default shell
+## Platform specific shell
 ```yaml
 steps:
 # Linux
@@ -154,5 +164,3 @@ steps:
 ```
 
 
-##--##
-## YAML Exemple
