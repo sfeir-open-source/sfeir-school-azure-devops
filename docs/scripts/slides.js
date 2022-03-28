@@ -61,8 +61,7 @@ const slides = {
     tools: chapter("02-project/07-tools",
       "01-az-cli",
       "02-excel",
-      "03-marketplace",
-      "04-lab"
+      "03-marketplace"      
     )
   },
   outro: chapter("03-outro",
