@@ -42,9 +42,7 @@ const slides = {
       "03-yaml",
       "04-yaml",
       "05-lab-build-project",
-      "06-github",
-      "07-deploy",
-      "08-demo-deploy-project"
+      "06-github"
     ),
     test: chapter("02-project/04-test",
       "00-intro",      

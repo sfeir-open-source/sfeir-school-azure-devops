@@ -1,0 +1,102 @@
+# .NET Desktop
+# Build and run tests for .NET Desktop or Windows classic desktop solutions.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+  
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  
+steps:
+- task: NuGetToolInstaller@1
+  
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
+  
+### SmartAssembly start ###
+- task: NuGetCommand@2
+  displayName: 'SmartAssembly download'
+  inputs:
+    command: 'custom'
+    arguments: 'install RedGate.SmartAssembly.Installer /OutputDirectory $(System.DefaultWorkingDirectory)'
+  
+- task: PowerShell@2
+  displayName: 'SmartAssembly installation'
+  inputs:
+    targetType: 'inline'
+    script: |
+      $saExtractPath = "$(System.DefaultWorkingDirectory)\RedGate.SmartAssembly.Installer*\tools\"
+      $saInstallLocation = "$(System.DefaultWorkingDirectory)\tools\SA\"
+      
+      "##[debug] Installing SmartAssembly..."
+      $msiPath = (Get-ChildItem "$saExtractPath\SmartAssembly_*_x64.msi").FullName
+      
+      "Installing SmartAssembly from $msiPath into $saInstallLocation"
+      $p = Start-Process -FilePath msiexec -Args "/qn /i `"$msiPath`" INSTALLDIR=`"$saInstallLocation`" RG_LICENSE=`"$(SA_KEY)`" RG_WARNING=`"Ignore`" REBOOT=`"ReallySuppress`" RG_I=`"Red Gate Software Ltd.`"" -Wait -Verbose -PassThru
+      if ($p.ExitCode -ne 0) {
+        throw "SmartAssembly installation failed. Installer exited with code: $($p.ExitCode)"
+      }
+  
+- task: PowerShell@2
+  displayName: 'SmartAssembly.settings'
+  inputs:
+    targetType: 'inline'
+    script: |
+      ########################
+      $saDbHost = "YOUR_DATABASE_HOST"; # replace with host of your database server
+      $saDbUser = "YOUR_DATABASE_USER"; # replace with your database username
+      $saDbName = "SmartAssembly";      # database will be created if it doesn't exist
+      ########################
+      
+      $saDbPass = "$(SA_DB_PASSWORD)";
+      "<SmartAssembly.Settings><Options><Database ConnectionString='Server=$saDbHost;Initial Catalog=$saDbName;User ID=$saDbUser;Password=$saDbPass' Server='$saDbHost' /></Options></SmartAssembly.Settings>" | Out-File -FilePath "$($env:ProgramData)\Red Gate\SmartAssembly 8\SmartAssembly.settings" -Verbose
+  
+- task: PowerShell@2
+  displayName: 'Set Azure File Share credentials'
+  inputs:
+    targetType: 'inline'
+    script: |
+      ########################
+      $fileShareHost = "YOUR_SHARE_HOST"; # replace with host of your Azure File Share server
+      $fileShareUser = "YOUR_SHARE_USER"; # replace with your Azure File Share username
+      ########################
+      
+      $fileSharePass = "$(SA_FS_PASSWORD)";
+      Invoke-Expression -Command "cmdkey /add:$fileShareHost /user:$fileShareUser /pass:$fileSharePass"
+### SmartAssembly end ###
+  
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+  
+### SmartAssembly start ###
+- task: PowerShell@2
+  displayName: 'SmartAssembly deactivation'
+  condition: always()
+  inputs:
+    targetType: 'inline'
+    script: |
+      $saInstallLocation = "$(System.DefaultWorkingDirectory)\Tools\SA\"
+      $saComPath = "$saInstallLocation\SmartAssembly.com"
+  
+      "##[debug] Deactivating SmartAssembly..."
+      $p = Start-Process -FilePath $saComPath -Args "/deactivateSerial" -PassThru -NoNewWindow -Wait
+      if ($p.ExitCode -ne 0) {
+        throw "Unable to deactivate SmartAssembly."
+      }
+### SmartAssembly end ###
+  
+- task: VSTest@2
+  inputs:
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
