@@ -62,7 +62,7 @@ const slides = {
       "01-az-cli",
       "02-excel",
       "03-marketplace",
-      "03-lab"
+      "04-lab"
     )
   },
   outro: chapter("03-outro",

@@ -12,6 +12,18 @@
     => modif dans une branche
 - templates
 
+
+##--##
+
+## VSCode: Azure Pipelines
+
+Extension Id: ms-azure-devops.azure-pipelines
+
+Syntax highlighting, IntelliSense, and more for Azure Pipelines YAML
+
+https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines
+
+
 ##--##
 ## YAML Exemple
 
