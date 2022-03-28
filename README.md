@@ -35,10 +35,15 @@ To run docs locally, go in directory `docs` and run `npx serve` of if you don't 
 ## Workshop
 
 Workshops are in directory `steps` : 
-steps/02-code/02-lab-clone.md
-steps/02-code/04-lab-review.md
-[steps/03-build-deploy/05-lab-build-project.md]
-steps/06-document/02-lab-wiki.md
+
+- [steps/02-code/02-lab-clone.md](https://github.com/sfeir-open-source/sfeir-school-azure-devops/blob/main/steps/02-code/02-lab-clone.md)
+- [steps/02-code/04-lab-review.md](https://github.com/sfeir-open-source/sfeir-school-azure-devops/blob/main/steps/02-code/04-lab-review.md)
+- [steps/03-build-deploy/05-lab-build-project.md](https://github.com/sfeir-open-source/sfeir-school-azure-devops/blob/main/steps/03-build-deploy/05-lab-build-project.md)
+- [steps/06-document/02-lab-wiki.md](https://github.com/sfeir-open-source/sfeir-school-azure-devops/blob/main/steps/06-document/02-lab-wiki.md)
+
+
+
+
 ## Contributing
 
 ### Contributing Guidelines
