@@ -18,7 +18,7 @@ To run docs locally, go in directory `docs` and run `npx serve` of if you don't 
 
 ## QR Code
 
-<img style="display:block" width="20%" height="20%" src="./docs/assets/images/frame.svg" alt="SFEIR School QR Code">
+<img style="display:block" width="800px" src="./docs/assets/images/frame.svg" alt="SFEIR School QR Code">
 
 ## Urls
 
