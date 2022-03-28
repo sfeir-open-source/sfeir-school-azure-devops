@@ -1,22 +1,5 @@
-<!-- .slide: class="transition bg-white" -->
+# Lab - Documentation
 
-# Document
-![logo](./assets/images/services/artifacts/logo.svg)
-
-**Hands-on Wiki**
-
-##--##
-
-## Lab - ?
-
-Notes:
-
-##--##
-
-## Demo - Précisions
-
-- Multiples wikis
-- Branches
-
-Notes:
-
+- Créer une page à son nom
+- Ajouter des éléments en utilisant du markdown
+- Expérimenter avec les différents objets à insérer

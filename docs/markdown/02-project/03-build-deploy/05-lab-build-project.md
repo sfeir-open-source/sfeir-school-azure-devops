@@ -10,7 +10,4 @@
 
 ## Lab - Create Api pipelines
 
-
-Notes:
-
-##--##
+steps/03-build-deploy/05-lab-build-project.md

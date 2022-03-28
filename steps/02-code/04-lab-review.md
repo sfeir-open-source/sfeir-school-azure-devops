@@ -1,13 +1,8 @@
-<!-- .slide: class="transition bg-pink" -->
-# Code
-![logo](./assets/images/services/repos/logo.svg)
+# Lab - Pull Request
 
-**Hands-on**
-
-##--##
-
-## Lab - PR
-Notes:
-TODO Lab02
+- Créer une PR, assigner à votre partenaire ou un présentateur
+- Le partenaire peut faire un commentaire: accepter ou demander un changement
+- Effectuer la modification si nécessaire
+- Le créateur de la PR fait le merge
 
 

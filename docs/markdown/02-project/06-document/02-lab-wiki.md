@@ -9,8 +9,7 @@
 
 ## Lab - Utiliser Wiki dans DevOps
 
-- Créer une page à son nom
-- Ajouter des éléments en utilisant du markdown
+steps/06-document/02-lab-wiki.md
 
 Notes:
 

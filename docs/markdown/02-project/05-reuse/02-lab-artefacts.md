@@ -7,13 +7,7 @@
 
 ##--##
 
-## Demo - ?
-
-Notes:
-
-##--##
-
-## Lab - ?
+## Demo - Artefacts
 
 Notes:
 

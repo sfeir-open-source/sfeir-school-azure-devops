@@ -14,7 +14,7 @@ Don't forget to replace all xxx by your techno
 
 The text below is the template you could use for your readme
 
-# SFEIR School XXX
+# SFEIR School Azure DevOps
 
 <p align="center">
  <img style="display:block" width="20%" height="20%" src="./docs/assets/images/sfeir-school-logo.png" alt="SFEIR School logo">
@@ -35,10 +35,10 @@ To run docs locally, go in directory `docs` and run `npx serve` of if you don't 
 ## Workshop
 
 Workshops are in directory `steps` : 
-* two directories per workshop :
-  * one with a README.md with workshop steps and source file to complete
-  * a second directory suffixed with `-solution` which contains source file with solutions.
-
+steps/02-code/02-lab-clone.md
+steps/02-code/04-lab-review.md
+[steps/03-build-deploy/05-lab-build-project.md]
+steps/06-document/02-lab-wiki.md
 ## Contributing
 
 ### Contributing Guidelines
