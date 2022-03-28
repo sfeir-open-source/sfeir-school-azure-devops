@@ -16,6 +16,10 @@ You can view the slides [here](https://sfeir-open-source.github.io/sfeir-school-
 
 To run docs locally, go in directory `docs` and run `npx serve` of if you don't have node, you can use docker `docker-compose up`, and open slides on http://localhost:5000/.
 
+## QR Code
+
+<img style="display:block" width="20%" height="20%" src="./docs/assets/images/frame.svg" alt="SFEIR School QR Code">
+
 ## Urls
 
 - [Azure DevOps](https://dev.azure.com/sfeir-schools/AzureDevops-1)
