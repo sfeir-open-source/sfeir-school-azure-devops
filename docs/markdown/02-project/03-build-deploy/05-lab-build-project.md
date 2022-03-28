@@ -8,10 +8,9 @@
 
 ##--##
 
-## Lab - YAML
+## Lab - Create Api pipelines
 
 
 Notes:
-TODO Lab05
 
 ##--##
