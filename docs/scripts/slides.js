@@ -59,6 +59,12 @@ const slides = {
     document: chapter("02-project/06-document",
       "01-wikis",
       "02-lab-wiki"
+    ),
+    tools: chapter("02-project/07-tools",
+      "01-az-cli",
+      "02-excel",
+      "03-marketplace",
+      "03-lab"
     )
   },
   outro: chapter("03-outro",
@@ -78,6 +84,7 @@ export function usedSlides() {
     ...slides.project.test,
     ...slides.project.reuse,
     ...slides.project.document,    
+    ...slides.project.tools,    
     ...slides.outro,
   ]
 
