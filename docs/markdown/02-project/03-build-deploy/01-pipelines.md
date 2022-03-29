@@ -78,3 +78,16 @@ Avantages
     - heure
     - lock exclusif
     - autres: azure function; api REST, ...
+
+
+## Service Connections
+- Azure
+- Chef
+- Docker et Docker Registry
+- Kubernetes
+- Maven
+- GitHub
+- WebHook
+- Jenkins
+- SSH
+- ...
