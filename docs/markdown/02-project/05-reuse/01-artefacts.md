@@ -7,14 +7,33 @@
 
 ##--##
 
-## page 1
+## Présentation
+
+Azure Artefacts est un service de stockage et versioning de packages.
+- S'utilise et peut se substituer à npm / nuget / maven / ...
+- Fonctionne sur la base de "feed", dont l'accès est soit privé ou public.
+- Les feeds sont des groupes de packages mais ne sont pas dépendants du type de package
+- Scope: Organisation ou Projet
 
 Notes:
-note 1
+
 
 ##--##
 
-## page 2
+## Pourquoi?
+
+- Partager avec le public des packages (binaires ou pas)
+- Partager en interne les librairies communes
+- Fournir un cache de packages
 
 Notes:
-note 2
+
+
+##--##
+
+## Comment
+- Build dans une pipeline
+- Publish d'un artifact dans un feed
+- Souscription à un feed dans un autre projet
+
+

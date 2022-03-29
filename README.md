@@ -35,6 +35,12 @@ Workshops are in directory `steps` :
 - [steps/06-document/02-lab-wiki.md](https://github.com/sfeir-open-source/sfeir-school-azure-devops/blob/main/steps/06-document/02-lab-wiki.md)
 
 
+## ROTI
+
+<iframe
+src="https://roti.express/i/sfeir-azure-devops"
+style="border:0;width:100%;height:350px;">
+</iframe>
 
 
 # Contributing

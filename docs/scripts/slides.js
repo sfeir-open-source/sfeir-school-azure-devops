@@ -52,7 +52,7 @@ const slides = {
     ),
     reuse: chapter("02-project/05-reuse",
       "01-artefacts",
-      "02-lab-artefacts"
+      "02-demo-artefacts"
     ),
     document: chapter("02-project/06-document",
       "01-wikis",
