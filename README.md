@@ -37,11 +37,8 @@ Workshops are in directory `steps` :
 
 ## ROTI
 
-<iframe
-src="https://roti.express/i/sfeir-azure-devops"
-style="border:0;width:100%;height:350px;">
-</iframe>
-
+[Noter cette School(https://roti.express/r/sfeir-azure-devops)
+<img style="display:block" width="800px" src="./docs/assets/images/roti.png" alt="SFEIR School ROTI QR Code">
 
 # Contributing
 
