@@ -39,3 +39,21 @@ sequenceDiagram
 :::
 
 ```
+
+##--##
+
+## Lab - Utiliser Wiki dans DevOps
+
+steps/06-document/02-lab-wiki.md
+
+Notes:
+
+##--##
+
+## Précisions
+
+- Multiples wikis
+- Branches
+
+Notes:
+

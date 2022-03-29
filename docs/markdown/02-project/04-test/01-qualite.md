@@ -26,15 +26,26 @@
 ##--##
 ## Mesurer la dette technique et la qualité du code.
 
-- Tests
+- Unit Tests par plateforme
 - SonarQube / SonarCloud
 - NDepend
 - Resharper Code Quality Analysis
 
-Quand?
-- Dans les pipelines
-- Quality Gates
 
 <div class="tip">
 Avantage: Feedback rapide
 </div>
+
+
+##--##
+# Tests dans les Pipelines
+
+- Execution des tests 
+- Agrégation des résultats
+- Gated Check-in / Gated Commit
+
+
+Notes:
+https://dev.azure.com/SFEIR/sfeir-school-azure-master/_build/results?buildId=111&view=results
+
+

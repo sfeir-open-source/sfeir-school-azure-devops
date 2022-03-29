@@ -5,3 +5,13 @@
 
 
 ##--##
+
+# Tests et Qualité
+
+- Unit Testing
+- Integration Testing
+- UI Tests
+- Performance Tests
+- Tests de Qualité
+
+Notes:

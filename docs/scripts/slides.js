@@ -51,12 +51,10 @@ const slides = {
       "03-demo-test"
     ),
     reuse: chapter("02-project/05-reuse",
-      "01-artefacts",
-      "02-demo-artefacts"
+      "01-artefacts"
     ),
     document: chapter("02-project/06-document",
-      "01-wikis",
-      "02-lab-wiki"
+      "01-wikis"
     ),
     tools: chapter("02-project/07-tools",
       "01-az-cli",
