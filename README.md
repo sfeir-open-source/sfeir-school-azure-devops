@@ -37,7 +37,7 @@ Workshops are in directory `steps` :
 
 ## ROTI
 
-[Noter cette School(https://roti.express/r/sfeir-azure-devops)
+[Noter cette School](https://roti.express/r/sfeir-azure-devops?lang=fr)
 <img style="display:block" width="800px" src="./docs/assets/images/roti.png" alt="SFEIR School ROTI QR Code">
 
 # Contributing
