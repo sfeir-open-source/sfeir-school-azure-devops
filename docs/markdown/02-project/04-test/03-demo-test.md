@@ -6,23 +6,6 @@
 **Demo: Azure DevOps Test Plans**
 
 ##--##
-## Avant de tester savoir quoi tester
-
-
-Notes:
-	Faire un tour de table rapide pour voir les différentes manières de gérer les tests fonctionnels.
-
-	On sort un peu du contexte purement orienté dev et on parle plus de l'après déploiement.
-	L'idéal est une équipe de testeurs différents des dev , des personnes qui vont créer et gérer l'évolution des tests plan et des testeurs.
-
-	Il y a plusieurs approches :
-		Les tests sont créés pour une release precise et independant des user stories => pas le mieux
-		Les tests sont associés a des User stories et liée plutot liée a un sprint
-		Test lié aux features et persistant dans la durée (plutôt pour le smoke testing)
-	Souvent un mix 
-
-
-##--##
 ## Demo Test plan
 
 - Test Plan => ensemble de test-suites inscrites dans une durée
@@ -43,17 +26,11 @@ Notes:
 ## Demo Parameters et Configuration  
 
 ##--##
-## Pro and cons
+## Subscription
 
-- Cons
-	- Prix:
-		- Subscription Test necessaire 
-		- Inclus dans les subcriptions VS Enterprise, Tester 
-	-
-
-
+- Subscription Test necessaire 
+- Inclus dans les subcriptions VS Enterprise, Tester 
 
 Notes:
    Sub cloud => https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/
    Sub MSDN  => https://visualstudio.microsoft.com/fr/vs/pricing-details/
-
