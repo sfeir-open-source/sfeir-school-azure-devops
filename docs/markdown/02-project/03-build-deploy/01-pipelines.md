@@ -47,8 +47,8 @@ Hosting:
 | Microsoft                                              | Self-hosted                           |
 |--------------------------------------------------------|---------------------------------------|
 | - Environnement "clean" à chaque execution (plus lent) | - Build incrémentielles (plus rapide) |
-| - 0 maintenance                                        | - Illimité                            |
-| - Minutes gratuites                                    | - Maintenance                         |
+| - 0 maintenance                                        | - Maintenance                         |
+| - Minutes gratuites                                    | - Illimité                            |
 
 
 Compatibilité
@@ -79,6 +79,7 @@ Avantages
     - lock exclusif
     - autres: azure function; api REST, ...
 
+##--##
 
 ## Service Connections
 - Azure
